@@ -1,0 +1,16 @@
+
+
+git-init - Create an empty Git repository or reinitialize an existing one
+
+
+git init [-q | --quiet] [--bare] [--template=<template-directory>]
+	  [--separate-git-dir <git-dir>] [--object-format=<format>]
+	  [-b <branch-name> | --initial-branch=<branch-name>]
+	  [--shared[=<permissions>]] [<directory>]
+	  
+	  
+	  Start a new Git repository for an existing code base
+ cd /path/to/my/codebase
+ git init      (1)
+ git add .     (2)
+ git commit    (3)
